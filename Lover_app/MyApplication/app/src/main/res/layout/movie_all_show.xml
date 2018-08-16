@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <TextView
+      android:layout_width="match_parent"
+      android:text="附近电影院"
+      android:id="@+id/search_movie"
+      android:textSize="18sp"
+      android:textColor="#99CD6839"
+      android:background="@drawable/shape"
+      android:gravity="center"
+      android:layout_height="40sp" />
+  <android.support.v4.widget.SwipeRefreshLayout
+      android:id="@+id/id_swipe_ly"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" >
+    <ListView android:layout_width="wrap_content"
+        android:divider="#00FAEBD7"
+        android:dividerHeight="15dp"
+        android:listSelector="#ffffff"
+        android:layout_height="wrap_content"
+        android:id="@+id/movie_list" >
+
+    </ListView>
+  </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

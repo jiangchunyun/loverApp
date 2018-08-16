@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:background="@drawable/shape"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_marginTop="-5sp"
+            android:gravity="center"
+            android:layout_height="45sp" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:id="@+id/name_1_name_2"
+        android:textColor="#99CD6839"
+        android:text="我的快乐时光"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_height="45dp" />
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="3"
+            android:layout_marginTop="-5sp"
+            android:gravity="center"
+            android:layout_height="45sp" />
+    </LinearLayout>
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/id_swipe_ly"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+        <ListView android:layout_width="wrap_content"
+        android:divider="#00FAEBD7"
+        android:dividerHeight="21dp"
+        android:listSelector="#d4d4d4"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridview" ></ListView>
+        </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>
+    <com.example.myapplication.Snow_fall.SnowView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>

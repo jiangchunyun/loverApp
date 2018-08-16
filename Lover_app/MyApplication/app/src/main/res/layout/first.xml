@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/l_beijing3"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="Lover_app"
+        android:textSize="25dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="技术支持：强春云  韩昊屿"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="25dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:text="美化：胡竟竟"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="64dp"
+        android:gravity="right"
+        android:layout_height="30dp" />
+</RelativeLayout>

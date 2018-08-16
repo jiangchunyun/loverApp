@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <com.amap.api.maps.MapView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/map" />
+    <TextView
+        android:layout_width="260sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape"
+        android:textColor="#FFFFFF"
+        android:text="欢迎使用love_app"
+        android:layout_marginBottom="80sp"
+        android:id="@+id/textmap"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3.5"
+        android:layout_alignParentTop="true"
+       android:layout_marginTop="30sp"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="40dp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:id="@+id/next"
+            android:background="@drawable/select_button"
+            android:text="下一页"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="40dp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/select_button"
+            android:id="@+id/former"
+            android:text="上一页"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="40dp" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/shape"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="25sp"
+            android:layout_marginTop="8sp"
+            android:layout_marginLeft="5sp"
+            android:background="@drawable/q_back2"
+            android:layout_height="20sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="320sp"
+            android:layout_height="40sp"
+            android:gravity="center"
+            android:text="设置"
+            android:textColor="#99CD6839"
+            android:textSize="17sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20sp"
+        android:layout_height="wrap_content">
+        <com.example.myapplication.personal.ZQImageViewRoundOval
+            android:layout_width="70sp"
+            android:layout_gravity="center"
+            android:src="@drawable/l_beijinggereng"
+            android:layout_height="70sp" />
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/name"
+            android:text="更换头像"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:weightSum="15">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:background="#ffffff" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="3dp"
+            android:layout_weight="10"
+            android:background="#ffffff"
+            android:gravity="left"
+            android:src="@drawable/l_pwesonal"
+            android:text="产品说明"
+            android:textColor="#525252"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="2"
+            android:layout_height="30sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/l_jiantou4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:layout_marginTop="5sp"
+        android:weightSum="15"
+
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:layout_height="40dp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="30dp"
+            android:text="关于我们"
+            android:gravity="left"
+            android:textColor="#525252"
+            android:textSize="16dp"
+            android:background="#ffffff"
+            android:layout_marginTop="3dp"
+            android:id="@+id/about_our"
+            android:src="@drawable/l_pwesonal"
+            />
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="2"
+            android:layout_height="30sp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/l_jiantou4"
+            android:layout_height="30dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:weightSum="15"
+        android:layout_marginTop="5sp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:layout_height="40dp"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="30dp"
+            android:text="技术支持"
+            android:gravity="left"
+            android:textColor="#525252"
+            android:textSize="16dp"
+            android:background="#ffffff"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/l_pwesonal"
+            />
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="2"
+            android:layout_height="30sp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/l_jiantou4"
+            android:layout_height="30dp"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="20sp"
+        android:layout_gravity="center"
+        android:text="退出当前账号"
+        android:id="@+id/back_user"
+        android:background="#ffffff"
+        android:textColor="#FF3030"
+        android:layout_height="40sp" />
+</LinearLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/message_lover_things"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:weightSum="8"
+        android:layout_height="4dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="1dp"
+            android:background="#B5B5B5"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <com.example.myapplication.personal.ZQImageViewRoundOval
+            android:layout_width="34sp"
+               android:layout_height="34sp"
+               android:layout_marginLeft="20sp"
+               android:id="@+id/image_1"
+               android:src="@drawable/l_beijinggereng"
+               android:textStyle="bold"
+               android:scaleType="fitXY"/>
+        <TextView android:textColor="#838B8B"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="7sp"
+            android:layout_height="34sp"
+            android:id="@+id/text"
+            android:text="222"
+            android:textSize="17sp"
+            android:gravity="center"
+            />
+        <TextView android:textColor="#838B8B"
+            android:layout_width="wrap_content"
+            android:layout_height="34sp"
+            android:layout_marginLeft="7sp"
+            android:id="@+id/text2"
+            android:textSize="17dp"
+            android:text="222"
+            android:gravity="center"
+           />
+        <com.example.myapplication.personal.ZQImageViewRoundOval
+            android:layout_width="34sp"
+            android:layout_height="34sp"
+            android:layout_marginLeft="7sp"
+            android:src="@drawable/l_beijinggereng"
+            android:id="@+id/image_2"
+            android:textStyle="bold"
+            android:scaleType="fitXY"/>
+
+
+    </LinearLayout>
+        <TextView android:textColor="#607B8B"
+        android:layout_marginTop="15sp"
+              android:layout_width="match_parent"
+              android:layout_marginLeft="20sp"
+              android:layout_marginRight="20sp"
+              android:layout_height="wrap_content"
+              android:id="@+id/id"
+              android:text="222"
+              android:textSize="15dp"
+
+    />
+        <GridView
+            android:id="@+id/id_gradview"
+          android:layout_gravity="center"
+            android:layout_marginTop="20sp"
+            android:layout_width="330sp"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@android:color/transparent"
+            android:horizontalSpacing="10sp"
+            android:columnWidth="100sp"
+            android:listSelector="@android:color/transparent"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5sp"></GridView>
+
+        <LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_marginTop="15sp"
+    android:layout_height="wrap_content">
+
+    <TextView android:textColor="#EEA2AD"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/text3"
+    android:textSize="13dp"
+    android:text="222"
+    android:gravity="left"
+        android:layout_marginLeft="20sp"
+    android:layout_marginRight="20sp"
+    />
+</LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="30sp"
+        android:background="#55EAEAEA"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginTop="20sp"
+        >
+        <TextView
+            android:layout_width="25sp"
+            android:background="@drawable/l_dianzao"
+            android:id="@+id/praise"
+            android:layout_marginLeft="20sp"
+            android:layout_height="25sp" />
+        <TextView
+            android:layout_width="22sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginLeft="40sp"
+            android:background="@drawable/l_pinglun2"
+            android:id="@+id/comment"
+            android:layout_height="22sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/date"
+            android:gravity="center"
+            android:layout_marginLeft="40sp"
+            android:textSize="11sp"
+            android:layout_height="30sp" />
+        <TextView
+            android:layout_width="22sp"
+            android:layout_marginTop="2sp"
+            android:layout_marginLeft="40sp"
+            android:background="@drawable/i_delete"
+            android:id="@+id/delete"
+            android:layout_height="22sp" />
+        <TextView
+            android:layout_width="0sp"
+            android:id="@+id/id_id"
+            android:layout_weight="0"
+            android:layout_height="0sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listview_comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:divider="#00FAEBD7"
+        android:listSelector="#ffffff"></ListView>
+
+
+</LinearLayout>

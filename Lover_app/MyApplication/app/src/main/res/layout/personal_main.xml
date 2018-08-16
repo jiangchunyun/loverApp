@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#88F0F0F0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:text="lover_app"
+        android:id="@+id/name_1_name_2"
+        android:textColor="#99CD6839"
+        android:textSize="18dp"
+        android:background="@drawable/shape"
+        android:gravity="center"
+        android:layout_height="45dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="15"
+        android:background="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_height="40sp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:layout_height="30dp"
+            />
+        <TextView
+        android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="30dp"
+            android:text="个人信息"
+            android:gravity="left"
+            android:textColor="#525252"
+            android:textSize="16dp"
+            android:background="#ffffff"
+            android:layout_marginTop="3dp"
+        android:id="@+id/message"
+        android:src="@drawable/l_pwesonal"
+        />
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="2"
+            android:layout_height="30sp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/l_jiantou4"
+            android:layout_height="30dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp"
+        android:background="#ffffff"
+        android:weightSum="15"
+        android:layout_height="40sp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:layout_height="30dp"
+            />
+
+
+         <TextView
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+           android:layout_weight="10"
+             android:id="@+id/personal_space"
+             android:gravity="left"
+             android:textColor="#525252"
+             android:textSize="16dp"
+             android:layout_marginTop="5dp"
+             android:background="#ffffff"
+             android:text="快乐时光"/>
+        />
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="2"
+            android:layout_height="30sp" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/l_jiantou4"
+            android:layout_height="30dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp"
+        android:background="#ffffff"
+        android:weightSum="15"
+        android:layout_height="40sp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:layout_height="30dp"
+            />
+
+    <TextView
+        android:gravity="left"
+        android:textColor="#525252"
+        android:textSize="16dp"
+        android:background="#ffffff"
+        android:layout_width="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="10"
+        android:layout_height="30dp"
+        android:id="@+id/change"
+        android:text="修改密码"/>
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="2"
+            android:layout_height="30sp" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/l_jiantou4"
+            android:layout_height="30dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp"
+        android:background="#ffffff"
+        android:weightSum="15"
+        android:layout_height="40sp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:layout_height="30dp"
+            />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="10"
+        android:layout_height="30dp"
+        android:id="@+id/remove"
+        android:textColor="#525252"
+        android:textSize="16dp"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:gravity="left"
+        android:text="解除伙伴"/>
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="2"
+            android:layout_height="30sp" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/l_jiantou4"
+            android:layout_height="30dp"
+            />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="7dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:weightSum="15">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="#ffffff" />
+
+        <TextView
+            android:id="@+id/lover"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="10"
+            android:background="#ffffff"
+            android:gravity="left"
+            android:text="绑定伙伴"
+            android:textColor="#525252"
+            android:textSize="16dp" />
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="2"
+            android:layout_height="30sp" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/l_jiantou4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="7dp"
+        android:background="#ffffff"
+        android:weightSum="15"
+        android:layout_height="40sp">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:layout_height="30dp"
+            />
+
+        <TextView
+            android:id="@+id/intercalate"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="10"
+            android:background="#ffffff"
+            android:gravity="left"
+            android:text="设置"
+            android:textColor="#525252"
+            android:textSize="16dp" />
+        <TextView
+            android:layout_width="0sp"
+            android:layout_weight="2"
+            android:layout_height="30sp" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/l_jiantou4"
+            android:layout_height="30dp"
+            />
+        </LinearLayout>
+    <TextView
+        android:layout_marginTop="7sp"
+        android:layout_width="match_parent"
+        android:layout_height="0sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="vertical"
+       android:background="@drawable/shape"
+       android:layout_height="50sp">
+      <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_gravity="center"
+       android:orientation="horizontal"
+       android:layout_height="50sp">
+
+      <TextView
+          android:layout_width="60sp"
+          android:text="hahah"
+          android:id="@+id/name_1_name_2"
+          android:textColor="#99CD6839"
+          android:textSize="16dp"
+          android:gravity="center"
+          android:layout_height="45dp" />
+      <com.example.myapplication.personal.ZQImageViewRoundOval
+          android:layout_width="40sp"
+          android:layout_marginTop="4sp"
+          android:src="@drawable/l_beijinggereng"
+          android:id="@+id/picture"
+          android:layout_height="50sp" />
+      <com.example.myapplication.personal.ZQImageViewRoundOval
+          android:layout_width="40sp"
+          android:layout_marginLeft="10sp"
+          android:layout_marginTop="4sp"
+          android:id="@+id/picture1"
+          android:src="@drawable/l_beijinggereng"
+          android:layout_height="50sp" />
+         <TextView
+             android:layout_width="60sp"
+             android:text="hahah"
+             android:id="@+id/name_1_name_21"
+             android:textColor="#99CD6839"
+             android:textSize="16dp"
+             android:gravity="center"
+             android:layout_height="45dp" />
+   </LinearLayout>
+   </LinearLayout>
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:layout_marginTop="30dp"
+       android:weightSum="13.5"
+       android:id="@+id/main1"
+
+       android:layout_height="wrap_content">
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="0.5"
+          android:layout_height="50dp" />
+
+   <Button
+       android:layout_width="0dp"
+       android:layout_weight="2"
+       android:layout_height="50dp"
+       android:background="@drawable/l_lover2"
+       android:id="@+id/changetomain"
+       />
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="1.5"
+          android:layout_height="50dp" />
+   <Button
+       android:layout_width="0dp"
+       android:layout_weight="2"
+       android:layout_height="50dp"
+       android:id="@+id/route_calculate"
+       android:background="@drawable/l_daohang2"
+      />
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="1.5"
+          android:layout_height="50dp" />
+
+      <Button
+          android:id="@+id/times"
+          android:layout_width="0dp"
+          android:layout_height="50dp"
+
+          android:layout_weight="2"
+          android:background="@drawable/l_shuoshuo" />
+
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="1.5"
+          android:layout_height="50dp" />
+   <Button
+       android:layout_width="0dp"
+       android:layout_weight="2"
+       android:background="@drawable/l_fandian"
+       android:id="@+id/restaurant"
+       android:layout_height="50dp" />
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="0.5"
+          android:layout_height="50dp" />
+      </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:layout_alignParentBottom="true"
+       android:weightSum="13.5"
+       android:layout_height="wrap_content">
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="0.5"
+          android:layout_height="50dp" />
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="2"
+          android:text="小伙伴位置"
+          android:textColor="#000000"
+          android:textSize="10dp"
+          android:gravity="center"
+          android:layout_height="20dp" />
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="1.5"
+          android:layout_height="50dp" />
+      <TextView
+          android:text="小伙伴导航"
+          android:textSize="10dp"
+          android:textColor="#000000"
+          android:gravity="center"
+          android:layout_width="0dp"
+          android:layout_weight="2"
+          android:layout_height="20dp" />
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="1.5"
+          android:layout_height="50dp" />
+
+      <TextView
+          android:text="动态显示"
+          android:textSize="10dp"
+          android:textColor="#000000"
+          android:gravity="center"
+          android:layout_width="0dp"
+          android:layout_weight="2"
+          android:layout_height="20dp" />
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="1.5"
+          android:layout_height="50dp" />
+      <TextView
+          android:text="附近饭店"
+          android:textSize="10dp"
+          android:textColor="#000000"
+          android:gravity="center"
+          android:layout_width="0dp"
+          android:layout_weight="2"
+          android:layout_height="20dp" />
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="0.5"
+          android:layout_height="50dp" />
+      </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:layout_alignParentBottom="true"
+       android:weightSum="13.5"
+
+
+       android:layout_height="wrap_content">
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="0.5"
+          android:layout_height="50dp" />
+   <Button
+       android:layout_width="0dp"
+       android:layout_weight="2"
+       android:background="@drawable/l_fangzi"
+       android:id="@+id/hotel"
+       android:layout_height="50dp" />
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="1.5"
+          android:layout_height="50dp" />
+   <Button
+       android:layout_width="0dp"
+       android:layout_weight="2"
+       android:background="@drawable/l_fengguang"
+       android:id="@+id/views"
+       android:layout_height="50dp" />
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="1.5"
+          android:layout_height="50dp" />
+   <Button
+       android:layout_width="0dp"
+       android:layout_weight="2"
+       android:background="@drawable/l_moves2"
+       android:id="@+id/tv"
+       android:layout_height="50dp" />
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="1.5"
+          android:layout_height="50dp" />
+   <Button
+       android:layout_width="0dp"
+       android:layout_weight="2"
+       android:background="@drawable/l_sousuo2"
+       android:id="@+id/search"
+       android:layout_height="50dp" />
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="0.5"
+          android:layout_height="50dp" />
+      </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:orientation="horizontal"
+       android:layout_alignParentBottom="true"
+       android:weightSum="13.5"
+       android:layout_height="wrap_content">
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="0.5"
+          android:layout_height="50dp" />
+      <TextView
+          android:text="附近宾馆"
+          android:textSize="10dp"
+          android:textColor="#000000"
+          android:gravity="center"
+          android:layout_width="0dp"
+          android:layout_weight="2"
+          android:layout_height="20dp" />
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="1.5"
+          android:layout_height="50dp" />
+      <TextView
+          android:text="旅游景点"
+          android:textSize="10dp"
+          android:textColor="#000000"
+          android:gravity="center"
+          android:layout_width="0dp"
+          android:layout_weight="2"
+          android:layout_height="20dp" />
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="1.5"
+          android:layout_height="50dp" />
+      <TextView
+          android:text="电影院"
+          android:textSize="10dp"
+          android:textColor="#000000"
+          android:gravity="center"
+          android:layout_width="0dp"
+          android:layout_weight="2"
+          android:layout_height="20dp" />
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="1.5"
+          android:layout_height="50dp" />
+
+      <TextView
+          android:text="地图搜索"
+          android:textColor="#000000"
+          android:gravity="center"
+          android:textSize="10dp"
+          android:layout_width="0dp"
+          android:layout_weight="2"
+          android:layout_height="20dp" />
+      <TextView
+          android:layout_width="0dp"
+          android:layout_weight="0.5"
+          android:layout_height="50dp" />
+   </LinearLayout>
+   <ImageView
+       android:layout_width="match_parent"
+       android:src="@drawable/l_tianchun"
+       android:layout_height="fill_parent" />
+
+</LinearLayout>

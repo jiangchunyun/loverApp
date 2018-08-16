@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<GridView
+    android:layout_width="match_parent"
+    android:id="@+id/id_gradview"
+    android:cacheColorHint="@android:color/transparent"
+    android:horizontalSpacing="3sp"
+    android:listSelector="@android:color/transparent"
+    android:numColumns="3"
+    android:stretchMode="columnWidth"
+    android:verticalSpacing="3sp"
+    android:layout_height="match_parent"></GridView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#ee000000"
+        android:id="@+id/id_bottom_ly"
+        android:clipChildren="true"
+        android:layout_alignParentBottom="true"
+        android:layout_height="50sp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/id_dir_name"
+            android:paddingLeft="10sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:text="所有图片"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/id_dir_count"
+            android:paddingRight="10sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:text="100张"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</RelativeLayout>

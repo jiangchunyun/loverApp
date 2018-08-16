@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    >
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        android:id="@+id/view_main">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/shape2"
+        android:paddingBottom="20dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="17"
+        android:layout_marginTop="5dp"
+        android:id="@+id/main1"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="20dp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:id="@+id/location"
+            android:background="@drawable/p_shouye2"
+            android:layout_height="30sp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:background="#ffffff"
+            android:layout_height="30dp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:id="@+id/main_shuo"
+            android:background="@drawable/p_kongjie"
+            android:layout_height="30sp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:background="#ffffff"
+            android:layout_height="30dp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:id="@+id/add_mian"
+            android:background="@drawable/q_add"
+            android:layout_height="30dp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:background="#ffffff"
+            android:layout_height="30sp" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:background="@drawable/l_yonghu3"
+            android:id="@+id/personal_main"
+            android:layout_height="30sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="20sp" />
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="17"
+            android:id="@+id/main2"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="16dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:text="首页"
+                android:id="@+id/main_shou2"
+                android:gravity="center"
+                android:textColor="#FF6699"
+                android:textSize="13sp"
+                android:layout_height="16sp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="20dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:text="说说"
+                android:id="@+id/main_shuoshuo"
+                android:gravity="center"
+                android:textColor="#FF6699"
+                android:textSize="13sp"
+                android:layout_height="16sp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="16dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:text="记录"
+                android:id="@+id/main_liaotian"
+                android:gravity="center"
+                android:textColor="#FF6699"
+                android:textSize="13sp"
+                android:layout_height="16sp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="16dp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:text="我的"
+                android:id="@+id/main_wode"
+                android:gravity="center"
+                android:textColor="#FF6699"
+                android:textSize="13sp"
+                android:layout_height="16sp" />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="13dp" />
+            </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

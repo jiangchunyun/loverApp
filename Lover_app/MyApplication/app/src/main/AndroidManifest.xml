@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
+    <!--用于访问网络，网络定位需要上网-->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--写入扩展存储，向扩展卡写入数据，用于写入缓存定位数据-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!--用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!--获取运营商信息，用于支持提供运营商信息相关的接口-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--用于访问GPS定位-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--用于读取手机当前的状态-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!--用于访问wifi网络信息，wifi信息会用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!--这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!--这个权限用于允许程序在手机屏幕关闭后后台进程仍然运行-->
+    <user-permission android:name="android.permission.WAKE_LOCK"/>
+    <!-- 从sdcard中读取数据的权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 往sdcard中写入数据的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/y_icon4"
+        android:label="真爱定位"
+        tools:replace="android:allowBackup,icon,theme,label"
+        tools:node="replace"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service android:name="com.amap.api.location.APSService"></service>
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="b1b8258286ea4d339c7d6edd954d5f0d"/>
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity android:name=".NorthModeActivity">
+
+        </activity>
+        <activity android:name=".WalkRouteCalculateActivity">
+
+        </activity>
+        <activity android:name=".driver_resoult">
+
+        </activity>
+        <activity android:name=".personal.hotel"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        </activity>
+        <activity android:name=".RouteNaviActivity">
+
+
+        </activity>
+        <activity android:name=".personal.personal_space">
+
+
+        </activity>
+        <activity android:name=".personal.intercalate">
+
+
+        </activity>
+        <activity android:name=".personal.message">
+
+
+        </activity>
+        <activity android:name=".personal.views"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+
+        </activity>
+        <activity android:name=".personal.restaurant"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+
+        </activity>
+        <activity android:name=".personal.tv"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        </activity>
+        <activity android:name=".personal.change">
+        </activity>
+        <activity android:name=".SingleRouteCalculateActivity">
+        </activity>
+        <activity android:name=".MyFragment">
+        </activity>
+        <activity android:name=".MyFragment2">
+        </activity>
+        <activity android:name="first">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".personal.view_mian">
+        </activity>
+        <activity android:name=".personal.lover_things_comment">
+        </activity>
+        <activity android:name=".love_people">
+        </activity>
+        <activity android:name=".personal.good_times">
+        </activity>
+        <activity android:name=".about_app.about_our">
+        </activity>
+        <activity android:name=".personal.comment_dialog">
+        </activity>
+        <activity android:name=".RideRouteCalculateActivity">
+        </activity>
+        <activity android:name=".personal.InputtipsActivity">
+        </activity>
+        <activity android:name=".personal.PoiKeywordSearchActivity">
+        </activity>
+        <activity android:name=".RoutePlanningActivity">
+        </activity>
+        <activity android:name=".daohang">
+        </activity>
+        <activity android:name=".Snow_fall.MainActivity">
+        </activity>
+        <activity android:name=".Movie.Movie_all_show">
+        </activity>
+        <activity android:name=".View.View_all_show">
+        </activity>
+        <activity android:name=".Hotel.Hotel_all_show">
+        </activity>
+        <activity android:name=".Food.Food_all_show">
+        </activity>
+        <activity android:name=".goodtime_count">
+        </activity>
+        <activity android:name=".Web_view.Web_item">
+        </activity>
+        <activity android:name=".webviewdemo.WebViewTestActivity">
+        </activity>
+        <activity android:name="com.zzti.fengyongge.imagepicker.PhotoSelectorActivity"></activity>//选择图片
+        <activity android:name="com.zzti.fengyongge.imagepicker.PhotoPreviewActivity"></activity>//预览图片
+    </application>
+
+</manifest>

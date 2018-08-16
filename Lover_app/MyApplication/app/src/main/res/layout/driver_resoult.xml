@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="2sp"
+
+        android:layout_height="match_parent">
+    <com.amap.api.maps.MapView
+        android:id="@+id/route_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </com.amap.api.maps.MapView>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/main0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:weightSum="6"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="25dp" />
+        <Button
+            android:layout_weight="1"
+            android:layout_height="25dp"
+            android:text="开车路径"
+            android:id="@+id/button_driver"
+            android:textSize="17dp"
+            android:background="@drawable/select_button"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="25dp" />
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:text="步行路径"
+            android:textSize="17dp"
+            android:background="@drawable/select_button"
+            android:textColor="#FFFFFF"
+
+            android:id="@+id/button_walk"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="25dp" />
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:background="@drawable/select_button"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"
+            android:text="骑车路径"
+
+            android:id="@+id/button_ride"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="25dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:weightSum="5.6"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="30dp" />
+        <Button
+            android:layout_weight="1"
+            android:layout_height="35dp"
+            android:text="开车导航"
+            android:id="@+id/button_driver0"
+            android:textSize="17dp"
+            android:background="@drawable/select_button"
+            android:textColor="#FFFFFF"
+            android:layout_width="wrap_content" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:layout_height="30dp" />
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:text="步行导航"
+            android:textSize="17dp"
+            android:background="@drawable/select_button"
+            android:textColor="#FFFFFF"
+
+            android:id="@+id/button_walk0"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:layout_height="30dp" />
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@drawable/select_button"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"
+            android:text="骑车导航"
+            android:id="@+id/button_ride0"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.7"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+</RelativeLayout>
